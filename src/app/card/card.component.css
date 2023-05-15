@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4em 2em;
+}
+.card {
+    flex: 1 0 30%;
+    margin: 1%;
+    background-color: #6dcd8c;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+.card p {
+    flex: 1;
+    margin: 0;
+}
+button{
+    background-color: chartreuse;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 80px;
+    border-color: white;
+}
+h2{
+    text-align: center;
+    margin-top: 0px;
+}
